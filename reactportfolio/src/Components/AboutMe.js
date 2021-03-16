@@ -9,7 +9,7 @@ function AboutMe() {
       <div className="row py-3 aboutMe">
 
         <div className="col">
-          <img src="./Images/me.JPG" alt="headshot" className="img-fluid" />
+          <img src="../../Public/Images/me.JPG" alt="headshot" className="img-fluid" />
         </div>
 
         <div className="col">

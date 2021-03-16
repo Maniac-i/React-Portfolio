@@ -1,6 +1,10 @@
 import React from 'react';
+import {Link, useLocation } from "react-router-dom";
 
 function NavBar() {
+
+  const location = useLocation();
+
   return(
     <nav className="navbar navbar-expand-lg fixed-top">
     <a className="navbar-brand" href="index.html">Joe Maniaci</a>
@@ -20,9 +24,9 @@ function NavBar() {
     </div>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav ml-auto">
-        <a className="nav-link" href="index.html">About Me</a>
-        <a className="nav-link" href="portfolio.html">Portfolio</a>
-        <a className="nav-link active" href="contact.html">Hit Me Up<span class="sr-only">(current)</span></a>
+        <Link to='/' className="nav-link">About Me</Link>
+        <Link to='/portfolio'className="nav-link">Portfolio</Link>
+        <Link to='/contact' className="nav-link active">Hit Me Up<span class="sr-only">(current)</span></Link>
       </div>
     </div>
   </nav>

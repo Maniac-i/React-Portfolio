@@ -1,10 +1,12 @@
 import React from 'react';
+import Project from './Project';
+
 
 function Portfolio(props) {
   return(
-<main class="mt-5">
-      <div class="w-100 mx-auto portfolio">
-        <h1 class="display-4">Portfolio</h1>
+<main className="mt-5">
+      <div className="w-100 mx-auto portfolio">
+        <h1 className="display-4">Portfolio</h1>
         <hr />
       </div>
 
