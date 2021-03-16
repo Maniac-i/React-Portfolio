@@ -1,0 +1,53 @@
+/*sets styles for entire page*/
+body {
+  color: lightgray;
+  line-height: 1.5em;
+  background-image: url("./Images/olena-sergienko-I3jSS2YfmcU-unsplash.jpg");
+  height: 100%;
+  background-size: cover;
+}
+
+/* styles navbar*/
+nav {
+  background-color: #313c31;
+}
+
+/* Styles h1 elements*/
+h1, h2 {
+  font-family: 'Poiret One', cursive;
+}
+
+p, h5, label, .submit { 
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h5, label {
+  font-weight: 500;
+}
+
+p, .submit {
+  font-weight: 100;
+}
+
+/* styles text of a elements*/
+a {
+  color: lightgray;
+}
+
+/*sets background color for social media bar on contact page and sections on about me and portfolio page*/
+ .socialMedia, .aboutMe {
+  background-color: #313c31;
+}
+
+hr {
+  background-color: darkolivegreen;
+}
+
+/*sets font size of paragraph in About Me section*/
+.paragraph {
+  font-size: 25px;
+}
+
+.emailphone {
+  font-size: 10px;
+}
