@@ -4,23 +4,23 @@ import Project from './Project';
 
 function Portfolio(props) {
   return(
-<main className="mt-5">
+<main className="mt-5 container">
       <div className="w-100 mx-auto portfolio">
         <h1 className="display-4">Portfolio</h1>
         <hr />
       </div>
 
       <Project 
-      src=""
+      src={`${process.env.PUBLIC_URL}/Images/Screen Shot 2021-03-09 at 6.21.41 PM.png`}
       href="https://maniac-i.github.io/Employee-Directory-2/"
       projectName="Employee Directory"
       github="https://github.com/Maniac-i/Employee-Directory-2"
       projectDescription ="This project was bootstrapped with Create React App. Upon loading, a random list of employees is rendered. It allows you to sort the employees by age and filter the employees that live in the United States"
       />
       <br/>
-      
+
       <Project 
-      src="reactportfolio/public/Images/Screen Shot 2021-02-15 at 5.29.12 PM.png"
+      src={`${process.env.PUBLIC_URL}/Images/Screen Shot 2021-02-15 at 5.29.12 PM.png`}
       href="https://travel-log-project.herokuapp.com/"
       projectName="Travel Bucket List"
       github="https://github.com/Maniac-i/TeamProject2"
@@ -38,7 +38,7 @@ function Portfolio(props) {
       />
       <br/>
        <Project 
-      src=""
+      src={`${process.env.PUBLIC_URL}/Images/Screen Shot 2021-01-26 at 5.20.31 PM.png`}
       href="https://fathomless-badlands-85692.herokuapp.com/"
       projectName="Eat the Burger"
       github="https://github.com/Maniac-i/burgers"
@@ -48,7 +48,7 @@ function Portfolio(props) {
       />
       <br/>
        <Project 
-      src=""
+      src={`${process.env.PUBLIC_URL}/Images/Screen Shot 2020-12-06 at 3.11.26 PM.png`}
       href="https://github.com/Maniac-i/Beds-N-Brews"
       projectName="Bed 'N Brews"
       github="https://maniac-i.github.io/Beds-N-Brews/"
@@ -62,7 +62,7 @@ function Portfolio(props) {
       />
        <br/>
        <Project 
-      src=""
+      src={`${process.env.PUBLIC_URL}/Images/Screen Shot 2020-11-21 at 9.39.23 AM.png`}
       href="https://maniac-i.github.io/Weather-Dashboard/"
       projectName="Weather Dashboard"
       github="https://github.com/Maniac-i/Weather-Dashboard"
@@ -73,7 +73,7 @@ function Portfolio(props) {
       />
       <br/>
        <Project 
-      src=""
+      src={`${process.env.PUBLIC_URL}/Images/Screen Shot 2020-12-06 at 3.27.33 PM.png`}
       href="https://maniac-i.github.io/Day-Schedule/"
       projectName="Day Schedule"
       github="https://github.com/Maniac-i/Day-Schedule"

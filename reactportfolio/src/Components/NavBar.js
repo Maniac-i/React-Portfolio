@@ -1,13 +1,12 @@
 import React from 'react';
-import {Link, useLocation } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 function NavBar() {
 
-  const location = useLocation();
 
   return(
     <nav className="navbar navbar-expand-lg fixed-top">
-    <a className="navbar-brand" href="index.html">Joe Maniaci</a>
+    <Link className="navbar-brand" to='/'>Joe Maniaci</Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
